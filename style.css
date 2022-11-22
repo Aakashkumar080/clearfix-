@@ -1,0 +1,41 @@
+.box{
+    width:  800px;
+    background-color: greenyellow;
+    margin: 0 auto;
+}
+.smallbox1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    float: left;
+}
+.smallbox2{
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    float: right;
+}
+
+.box2{
+    width:  800px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.smallbox3{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    float: left;
+}
+.smallbox4{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
